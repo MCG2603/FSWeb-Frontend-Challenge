@@ -1,13 +1,15 @@
 export function HireMe(props){
     const check=props.check
+    const en=props.arrEn;
+   const tr=props.arrTr;
+   const posts=props.posts
 
     return(
         <div id={check ? "dark" :""} ref={props.ref2}>
 
 <div class='container3'>
 <div class='f1'>
-<h1>Let's work together on 
-your next product</h1>
+<h1>{posts[24]}</h1>
 </div>
 <div class='c1'>
 <div>
@@ -21,7 +23,7 @@ your next product</h1>
 <div></div>
 <div>
 <text>
-    Personal Blog
+{posts[25]}
 </text>
 </div>
 <div>

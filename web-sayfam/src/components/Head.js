@@ -2,6 +2,11 @@ import { forwardRef } from "react"
 
  export function Head(props){
     const check=props.check
+    const en=props.arrEn;
+   const tr=props.arrTr;
+   const dil=props.dil;
+   const posts=props.posts
+   
 return(
 <div id={check ? "dark" :""}>
 
@@ -12,16 +17,13 @@ return(
         </div>
         <div class='g'>
             <div class='f'>
-                <h1 class='e'>Creative thinker 
-                    Minimalism Lover
+                <h1 class='e'>{posts[5]}
                 </h1>
                 <p>
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaa
+                   {posts[6]}
                 </p>
                 <div class='h'>
-                    <button>Hire me </button>
+                    <button>{posts[4]} </button>
                     <button>Github</button>
                     <button>Linkedin</button>
                 </div>

@@ -1,6 +1,10 @@
 export function Skills(props){
 const c=props.ref3
 const check=props.check
+const en=props.arrEn;
+const tr=props.arrTr;
+const posts=props.posts
+
 
 return(
         <div id={check ? "dark" :""} ref={c}> 
@@ -8,25 +12,19 @@ return(
 <div  class='container'>
 <h1>Skills</h1>
 <div class='g'>
-<div class='container1'>
+<div class='container1a'>
     <h2>Java Script</h2>
-    <p>Java Scriptaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaa
+    <p class="f1a">{posts[7]}
 </p>
     </div>
-    <div class='container1'>
-    <h2>Java Script</h2>
-    <p>Java Scriptaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaa
+    <div class='container1a'>
+    <h2>React Js</h2>
+    <p class="f1a">{posts[8]}
 </p>
     </div>
-    <div class='container1'>
-    <h2>Java Script</h2>
-    <p>Java Scriptaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaa
+    <div class='container1a'>
+    <h2>Node Js</h2>
+    <p class="f1a">{posts[9]}
 </p>
     </div>
 
@@ -36,25 +34,25 @@ return(
 <div class="line-2"></div>
 
 <div class='container1'>
-<h1>Profile</h1>
+<h1>{posts[10]}</h1>
 <div class='g'>
 <div class='container1'>
-    <h2>Profile</h2>
+    <h2>{posts[10]}</h2>
   
     <div class='g1'>
         <div>
-        <p>Doğum Tarihi</p>
-        <p>İkamet Şehri</p>
-        <p>Eğitim Durumu</p>
+        <p>{posts[11]}</p>
+        <p>{posts[12]}</p>
+        <p>{posts[13]}</p>
         <p>. </p>
-        <p>Tercih Ettiği Rol</p>
+        <p>{posts[14]}</p>
   
         </div>
      <div>                   
          <p>26.03.1987</p>
         <p>İstanbul</p>
-        <p>Boğaziçi Üniv. Matematik  </p>
-        <p>Yüksek Lisans,2023</p>
+        <p>Boğaziçi Univ. Math  </p>
+        <p>{posts[15]},2023</p>
         <p>Backend</p>
   
         </div>
@@ -66,16 +64,12 @@ return(
     </div>
   
     <div class='container2'>
-    <h2>About Me</h2>
-    <p>Java Scriptaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaa
+    <h2>{posts[16]}</h2>
+    <p>{posts[17]}
 
 </p>
 <br/>
-<p>Java Scriptaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaa
+<p>{posts[18]}
 
 </p>
     </div>

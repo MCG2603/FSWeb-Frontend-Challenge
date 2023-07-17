@@ -9,6 +9,9 @@ export function Header(props){
    const check=props.check
    const dil=props.dil
    const dilChange=props.dilChange
+   const en=props.arrEn;
+   const tr=props.arrTr;
+   const posts=props.posts
     
 
 
@@ -19,7 +22,7 @@ return(
 
         </div>
         <div>
-           <Toggle onChange={setCheck1}  height='20' labelRight={!check? "DARK MODE":"LIGHT MODE"}/> 
+           <Toggle onChange={setCheck1}  height='20' labelRight={!check? posts[0]:posts[1]}/> 
         </div>
         <div>|</div>
         <div><button onClick={dilChange}>{dil}</button> 'YE GEÇ</div>
@@ -36,18 +39,17 @@ return(
         <div></div>
             <div>
             <button onClick={props.s} >
-                Skills
+                {posts[2]}
             </button>
             </div>
             <div>
             <button onClick={props.p}>
-                Projects
+            {posts[3]}
             </button>
             </div>
             <div>
             <button onClick={props.h}>
-                Hire me
-            </button>
+            {posts[4]}            </button>
             </div>
            
         </div>

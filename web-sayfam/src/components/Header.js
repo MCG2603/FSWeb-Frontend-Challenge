@@ -22,14 +22,14 @@ return(
 
         </div>
         <div>
-           <Toggle onChange={setCheck1}  height='20' labelRight={!check? posts[0]:posts[1]}/> 
+           <Toggle checked={check} onChange={setCheck1}  height='20' labelRight={!check? posts[0]:posts[1]}/> 
         </div>
         <div>|</div>
         <div><button id='y' onClick={dilChange} class='l'>{dil}</button> 'YE GEÇ</div>
     </div>
     <div class='c'>
-        <div>
-        <p id={!check? "circle":"circled"}class="b">MCG</p>
+        <div id={!check? "circle":"circled"}class="b"> 
+        <p id="cir">MCG</p>
         </div>
       
         <div></div>

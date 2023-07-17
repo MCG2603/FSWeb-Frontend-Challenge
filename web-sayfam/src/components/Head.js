@@ -14,7 +14,7 @@ return(
         <div class='container'>
         <div class='d'>
         <div class="line-1"></div>
-        <div>Miraç Can Gürsoy</div>
+        <div class="l"> Miraç Can Gürsoy</div>
         </div>
         <div class='g'>
             <div class='f1a'>

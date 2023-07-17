@@ -8,6 +8,7 @@
 
 }
 
+
 .b{
 
 rotate: 30deg;
@@ -48,8 +49,13 @@ rotate: 30deg;
     height: 75px;
     text-align: center;
 }
+#cir{
+    margin-top: 30%;
+    color: #7B61FF;
+}
+
 #circled {
-    background: rgb(1, 76, 100);
+    background: #EEEBFF;
     border-radius: 50%;
     width: 75px;
     height: 75px;
@@ -118,6 +124,7 @@ flex-direction: column;
             flex-direction: column;
             justify-content:flex-start;
             padding-top: 10%;
+            padding-bottom: 3%;
               }
   .d{
     display: flex;
@@ -128,6 +135,11 @@ flex-direction: column;
    justify-content: space-between;
 }
 .g1{
+    display: flex;
+   justify-content: space-between;
+   width: 80%;
+}
+.g1a{
     display: flex;
    justify-content: space-between;
    width: 80%;
@@ -147,7 +159,7 @@ flex-direction: column;
     
     background-image:url('/src/components/mcg1.png');
    
-    width: 40%;
+    width: 60%;
 
     border-radius:  15px ;
 
@@ -189,7 +201,7 @@ flex-direction: column;
  
    
 #circle {
-    background: lightblue;
+    background: #EEEBFF;
     border-radius: 50%;
     width: 75px;
     height: 75px;
@@ -208,4 +220,214 @@ flex-direction: column;
 }
 .l{
     color:  #4731D3;
+}
+
+
+
+@media(max-width: 800px) {
+
+    
+    .a{
+        display: flex;
+        justify-content: space-around;
+        width:100%;
+        padding-top: 1.5%;
+        margin-left: 0%;
+       
+    
+    }
+    
+    .b{
+        text-align: center;
+
+    rotate: 30deg;
+    
+    }
+    .a11 {
+        text-decoration: none;
+       }
+    
+       #z {
+        background: rgb(7, 7, 104);
+        color:white ;
+        padding: 2% 4%;
+        border: none;
+        border-radius: 6%;
+       }
+       #x {
+        border: solid;
+        padding: 2% 4%;
+        border-color: rgb(10, 10, 85);
+        border-width: 0.0000000000000000000000000000000001px;
+        background-color: white;
+        color: rgb(9, 9, 87);
+        border-radius: 6%;
+        
+       }
+       #y{
+        background: none;
+        border: none;
+       }
+       .y{
+        color:white
+       }
+    #circle {
+        background: rgb(87, 202, 240);
+        border-radius: 50%;
+        width: 75px;
+        height: 75px;
+        text-align: center;
+    }
+    #circled {
+        background: rgb(1, 76, 100);
+        border-radius: 50%;
+        width: 75px;
+        height: 75px;
+        text-align: center;
+    }
+    
+    
+    .c{
+       flex-direction: column;
+      
+    }
+    .c1{
+        flex-direction: column;
+      
+    }
+    .line-1 {
+       
+        width: 100%;
+        
+      }
+      .container{
+    padding-top: 1%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    padding-left: 0;
+      }
+      .container1{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        margin-left: 2%;
+    padding-left: 0;
+          }
+          .container1a{
+            display: flex;
+            flex-direction: column;
+            justify-content:flex-start;
+            margin-top: 0;
+            margin-left: 2%;
+    padding-left: 0;
+              }
+          .container2{
+            
+            display: flex;
+            flex-direction: column;
+            justify-content:flex-start;
+            margin-left: 2%;
+    padding-left: 0;
+              }
+              .container3{
+                display: flex;
+                flex-direction: column;
+                justify-content:flex-start;
+                padding-top: 10%;
+                margin-left: 2%;
+                padding-left: 0;
+                  }
+      .d{
+        flex-direction: column;
+       
+    }
+      .g{
+        flex-direction: column;
+    }
+    .g1{
+        flex-direction: column;
+    }
+    .g2{
+        flex-direction: column;
+    }
+    .g3{
+        flex-direction: column;
+    }
+    .connn5{
+        
+        background-image:url('/src/components/mcg1.png');
+       
+        width: 87vw;
+    
+        border-radius:  1.5px ;
+        height: 85vw;
+        margin-top: 5%;
+        margin-left: 0;
+        padding-left: 0;
+    
+    }
+    .connn6{
+        
+        background-image:url('/src/components/mcg1.png');
+       
+        width: 87vw;
+    
+        border-radius:  1.5px ;
+        height: 85vw;
+        margin-top: 5%;
+    
+    }
+    .e{
+        font-size: 50px;
+    }
+    .f{
+        width: 50%;
+    }
+    .f1{
+        width: 40%;
+    }
+    .f1a{
+        width: 80%;
+    }
+    .h{
+        display: flex;
+        justify-content: space-between;
+        width: 48%;
+    }
+    .line-2 {
+        height: 1px;
+        background: black;
+        width: 70%;
+       margin: auto;
+      }
+    
+      .g1a{
+      
+       width: 100%;
+    }
+     
+       
+    #circle {
+        background: lightblue;
+        border-radius: 50%;
+        width: 75px;
+        height: 75px;
+        text-align: center;
+    }
+    
+    #dark{
+        background-color: rgb(36, 36, 36);
+        color:rgb(206, 202, 202)
+    }
+    .j{
+        color:rgb(207, 22, 22)
+    }
+    .k{
+        color: aqua;
+    }
+    .l{
+        color:  #4731D3;
+    }
+
 }

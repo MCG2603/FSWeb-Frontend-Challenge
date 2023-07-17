@@ -13,17 +13,17 @@ return(
 <h1>Skills</h1>
 <div class='g'>
 <div class='container1a'>
-    <h2>Java Script</h2>
+    <h2 class="l">Java Script</h2>
     <p class="f1a">{posts[7]}
 </p>
     </div>
     <div class='container1a'>
-    <h2>React Js</h2>
+    <h2 class="l">React Js</h2>
     <p class="f1a">{posts[8]}
 </p>
     </div>
     <div class='container1a'>
-    <h2>Node Js</h2>
+    <h2 class="l">Node Js</h2>
     <p class="f1a">{posts[9]}
 </p>
     </div>
@@ -34,12 +34,12 @@ return(
 <div class="line-2"></div>
 
 <div class='container1'>
-<h1>{posts[10]}</h1>
+<h1 >{posts[10]}</h1>
 <div class='g'>
 <div class='container1'>
-    <h2>{posts[10]}</h2>
+    <h2 class="l">{posts[10]}</h2>
   
-    <div class='g1'>
+    <div class='g1a'>
         <div>
         <p>{posts[11]}</p>
         <p>{posts[12]}</p>
@@ -64,7 +64,7 @@ return(
     </div>
   
     <div class='container2'>
-    <h2>{posts[16]}</h2>
+    <h2 class="l">{posts[16]}</h2>
     <p>{posts[17]}
 
 </p>

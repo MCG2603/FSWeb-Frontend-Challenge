@@ -14,7 +14,7 @@ export function Projects(props){
 <div class='container1'>
 <div class='connn6'>
 </div>
-    <h2>Workintech</h2>
+    <h2 class="l">Workintech</h2>
     <p class="f1a">{posts[20]}
 </p>
 <div class='h'>
@@ -30,7 +30,7 @@ export function Projects(props){
     <div class='container1a'>
     <div class='connn6'>
 </div>
-    <h2>{posts[21]}</h2>
+    <h2 class="l">{posts[21]}</h2>
     <p class="f1a">{posts[22]}
 </p>
 <div class='h'>
@@ -46,7 +46,7 @@ export function Projects(props){
     <div class='container1a'>
     <div class='connn6'>
 </div>
-    <h2>{posts[23]}</h2>
+    <h2 class="l">{posts[23]}</h2>
     <p class="f1a">{posts[20]}
 </p>
 <div class='h'>

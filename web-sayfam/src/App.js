@@ -36,33 +36,41 @@ function App() {
 "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
 "Journey","Let's work together on your next product","Personal Blog","View Site"
 ]
-
-  const[check,setCheck]=useState(false);
-  const [posts, setPosts] = useState(arrEn)
-  const[dil,setDil]=useState("Türkçe");
+console.log(localStorage.getItem("Challenge11Mode"))
+  const[check,setCheck]=useState( localStorage.getItem("Challenge11Mode")==="true" );
+  const[dil,setDil]=useState(localStorage.getItem("challange11Dil") );
+  const [posts, setPosts] = useState(dil=="Türkçe"? arrEn:arrTr)
+  
+  /*
   useEffect(()=>{
-     axios.post("http://localhost:8000/posts",dil=="Türkçe"? arrTr :arrEn
+     axios.post("http://localhost:8000/posts",dil=="Türkçe"? arrEn :arrTr
     )
   
   .then(res => {
     setPosts(res.data);
     
 })
-.then(res => {
-  console.log(posts);
   
-})},[dil])
+  },[dil])
 
 
- 
+ */
 
   
   const setCheck1=()=>{
+   
+    let a=!(localStorage.getItem("Challenge11Mode")==="true")
+    localStorage.setItem("Challenge11Mode",a)
+
     setCheck(!check)
+
 }
 const dilChange=()=>{
-  //dil=="Türkçe"? setPosts(arrTr) :setPosts(arrEn)
+  dil=="Türkçe"? setPosts(arrTr) :setPosts(arrEn)
+  let a= (dil=="Türkçe"? "İngilizce" :"Türkçe")
+  localStorage.setItem("challange11Dil",a)
   dil=="Türkçe"? setDil("İngilizce") :setDil("Türkçe")
+  
   
 }
   const ref=useRef(null);
@@ -76,7 +84,7 @@ const dilChange=()=>{
       const handleH=()=>{
         ref2.current?.scrollIntoView({ behavior: "smooth"})}
   return (
-    <div>
+    <div id={check ? "dark" :""}>
    <Header  posts={posts} arrTr={arrTr} arrEn={arrEn} dilChange={dilChange} dil={dil} check={check} setCheck1={setCheck1} s={handleS} p={handleP} h={handleH}/>
    <Head posts={posts} arrTr={arrTr} arrEn={arrEn} dil={dil} check={check}  s={handleS} p={handleP} h={handleH}/>
    <Skills posts={posts} arrTr={arrTr} arrEn={arrEn} dil={dil}  check={check}  ref3={ref} s={handleS} p={handleP} h={handleH}  />

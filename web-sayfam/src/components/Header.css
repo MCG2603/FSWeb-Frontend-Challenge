@@ -13,17 +13,34 @@
 rotate: 30deg;
 
 }
-button {
-    background: none!important;
+.a11 {
+    text-decoration: none;
+   }
+
+   #z {
+    background: rgb(7, 7, 104);
+    color:white ;
+    padding: 2% 4%;
     border: none;
-    padding: 0!important;
-    /*optional*/
-    font-family: arial, sans-serif;
-    /*input has OS specific font-family*/
-    color: rgb(125, 126, 126);
-    text-decoration: underline;
-    cursor: pointer;
-  }
+    border-radius: 6%;
+   }
+   #x {
+    border: solid;
+    padding: 2% 4%;
+    border-color: rgb(10, 10, 85);
+    border-width: 0.0000000000000000000000000000000001px;
+    background-color: white;
+    color: rgb(9, 9, 87);
+    border-radius: 6%;
+    
+   }
+   #y{
+    background: none;
+    border: none;
+   }
+   .y{
+    color:white
+   }
 #circle {
     background: rgb(87, 202, 240);
     border-radius: 50%;
@@ -168,33 +185,9 @@ flex-direction: column;
    margin: auto;
   }
 
-  .ad{
-    display: flex;
-    justify-content: space-around;
-    width:25%;
-    margin-top: 1.5%;
-    margin-left: 65%;
-    background-color: black;
+  
+ 
    
-
-}
-
-.bd{
-
-rotate: 30deg;
-
-}
-button {
-    background: none!important;
-    border: none;
-    padding: 0!important;
-    /*optional*/
-    font-family: arial, sans-serif;
-    /*input has OS specific font-family*/
-    color: rgb(125, 126, 126);
-    text-decoration: underline;
-    cursor: pointer;
-  }
 #circle {
     background: lightblue;
     border-radius: 50%;
@@ -206,4 +199,13 @@ button {
 #dark{
     background-color: rgb(36, 36, 36);
     color:rgb(206, 202, 202)
+}
+.j{
+    color:rgb(207, 22, 22)
+}
+.k{
+    color: aqua;
+}
+.l{
+    color:  #4731D3;
 }

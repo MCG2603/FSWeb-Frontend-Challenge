@@ -25,7 +25,7 @@ return(
            <Toggle onChange={setCheck1}  height='20' labelRight={!check? posts[0]:posts[1]}/> 
         </div>
         <div>|</div>
-        <div><button onClick={dilChange}>{dil}</button> 'YE GEÇ</div>
+        <div><button id='y' onClick={dilChange} class='l'>{dil}</button> 'YE GEÇ</div>
     </div>
     <div class='c'>
         <div>
@@ -38,17 +38,17 @@ return(
         <div></div>
         <div></div>
             <div>
-            <button onClick={props.s} >
+            <button class={check ? "y" :""} id='y' onClick={props.s} >
                 {posts[2]}
             </button>
             </div>
             <div>
-            <button onClick={props.p}>
+            <button class={check ? "y" :""} id='y' onClick={props.p}>
             {posts[3]}
             </button>
             </div>
             <div>
-            <button onClick={props.h}>
+            <button class={check ? "y" :""} id='y' onClick={props.h}>
             {posts[4]}            </button>
             </div>
            

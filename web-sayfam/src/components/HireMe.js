@@ -13,7 +13,7 @@ export function HireMe(props){
 </div>
 <div class='c1'>
 <div>
-<p >miraccangursoy1@gmail.com</p>
+<a href="#" class="j">miraccangursoy1@gmail.com</a>
 </div>
 
 <div></div>
@@ -27,14 +27,14 @@ export function HireMe(props){
 </text>
 </div>
 <div>
-<text>
+< a href="https://github.com/MCG2603" class="k a11"  >
     Github
-</text>
+</a>
 </div>
 <div>
-<text>
+<a   href="https://www.linkedin.com/in/mira%C3%A7-can-g%C3%BCrsoy-1ba63442/"  class="l a11" >
     Linkedin
-</text>
+</a>
 </div>
 
 </div>

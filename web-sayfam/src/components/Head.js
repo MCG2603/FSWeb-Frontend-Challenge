@@ -1,4 +1,5 @@
 import { forwardRef } from "react"
+import 'bootstrap';
 
  export function Head(props){
     const check=props.check
@@ -16,16 +17,18 @@ return(
         <div>Miraç Can Gürsoy</div>
         </div>
         <div class='g'>
-            <div class='f'>
+            <div class='f1a'>
                 <h1 class='e'>{posts[5]}
                 </h1>
-                <p>
+                <p class="f1a">
                    {posts[6]}
                 </p>
                 <div class='h'>
-                    <button>{posts[4]} </button>
-                    <button>Github</button>
-                    <button>Linkedin</button>
+                    
+                < a  id="z" class="button" onClick={props.h}>{posts[4]} </a>
+                 < a href="https://github.com/MCG2603" id="x"  class="button a11"> <i class="fa fa-github" style={{fontSize:"14px"}}></i>
+Github</a>
+                    <a   href="https://www.linkedin.com/in/mira%C3%A7-can-g%C3%BCrsoy-1ba63442/" id="x" class="button a11"  > <i class="fa fa-linkedin-square"></i>Linkedin</a>
                 </div>
             </div>
             <div class='connn5'>

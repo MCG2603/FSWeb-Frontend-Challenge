@@ -18,13 +18,13 @@ export function Projects(props){
     <p class="f1a">{posts[20]}
 </p>
 <div class='h'>
-        <button onClick={h}>{posts[4]} </button>
-        <button>Github</button>
-        <button>Linkedin</button>
+        <button id="x">react </button>
+        <button id="x">redux</button>
+        <button id="x">axios</button>
     </div>
     <div class='g3'>
-        <button>Github</button>
-        <button>Linkedin</button>
+    <a href="#" >Github</a>
+        <a href="#" >{posts[26]}</a>
     </div>
     </div>
     <div class='container1a'>
@@ -34,13 +34,13 @@ export function Projects(props){
     <p class="f1a">{posts[22]}
 </p>
 <div class='h'>
-        <button onClick={h}>{posts[4]} </button>
-        <button>Github</button>
-        <button>Linkedin</button>
+        <button id="x">react </button>
+        <button id="x">redux</button>
+        <button id="x">axios</button>
     </div>
     <div class='g3'>
-        <button>Github</button>
-        <button>Linkedin</button>
+        <a href="#" >Github</a>
+        <a href="#" >{posts[26]}</a>
     </div>
     </div>
     <div class='container1a'>
@@ -50,13 +50,13 @@ export function Projects(props){
     <p class="f1a">{posts[20]}
 </p>
 <div class='h'>
-        <button onClick={h}>{posts[4]} </button>
-        <button>Github</button>
-        <button>Linkedin</button>
+        <button id="x">react </button>
+        <button id="x">redux</button>
+        <button id="x">axios</button>
     </div>
     <div class='g3'>
-        <button>Github</button>
-        <button>Linkedin</button>
+    <a href="#" >Github</a>
+        <a href="#" >{posts[26]}</a>
     </div>
     </div>
   

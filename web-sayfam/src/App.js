@@ -21,7 +21,7 @@ function App() {
 "Kullanıcılarınızın hangi tanımlama bilgilerini kabul edeceklerini veya reddedeceklerini seçmelerine olanak tanıyan basit, özelleştirilebilir, minimum kurulumlu bir tanımlama bilgisi eklentisi. Bu, vanilya JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak mevcuttur ve git deposu, kod ve temalar için her türlü özelleştirmeyi mümkün kılar.",
 "Rastgele Şakalar",
 "Kullanıcılarınızın hangi tanımlama bilgilerini kabul edeceklerini veya reddedeceklerini seçmelerine olanak tanıyan basit, özelleştirilebilir, minimum kurulumlu bir tanımlama bilgisi eklentisi. Bu, vanilya JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak mevcuttur ve git deposu, kod ve temalar için her türlü özelleştirmeyi mümkün kılar.",
-"Seyahat","Bir sonraki ürününüz üzerinde birlikte çalışalım","Kişisel Blog"]
+"Seyahat","Bir sonraki ürününüz üzerinde birlikte çalışalım","Kişisel Blog","Siteye Git"]
   let arrEn=["Dark Mode","Light Mode","Skills","Project","Hire me","Creative thinker Minimalism Lover",
   "Hi, I’m MCG. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
 "Unless they are blinded by lust, they do not come forth; they are in fault who abandon their duties and soften their hearts, that is, their labors.",
@@ -34,25 +34,34 @@ function App() {
 "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
 "Random Jokes",
 "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-"Journey","Let's work together on your next product","Personal Blog"
+"Journey","Let's work together on your next product","Personal Blog","View Site"
 ]
 
   const[check,setCheck]=useState(false);
   const [posts, setPosts] = useState(arrEn)
+  const[dil,setDil]=useState("Türkçe");
   useEffect(()=>{
-     axios.post("http://localhost:8000/posts",arrTr)
+     axios.post("http://localhost:8000/posts",dil=="Türkçe"? arrTr :arrEn
+    )
+  
   .then(res => {
-      console.log(res.data);
-  });},[])
+    setPosts(res.data);
+    
+})
+.then(res => {
+  console.log(posts);
+  
+})},[dil])
+
+
  
 
   
-  const[dil,setDil]=useState("Türkçe");
   const setCheck1=()=>{
     setCheck(!check)
 }
 const dilChange=()=>{
-  dil=="Türkçe"? setPosts(arrTr) :setPosts(arrEn)
+  //dil=="Türkçe"? setPosts(arrTr) :setPosts(arrEn)
   dil=="Türkçe"? setDil("İngilizce") :setDil("Türkçe")
   
 }

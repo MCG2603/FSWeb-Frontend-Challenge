@@ -38,7 +38,7 @@ function App() {
 ]
 console.log(localStorage.getItem("Challenge11Mode"))
   const[check,setCheck]=useState( localStorage.getItem("Challenge11Mode")==="true" );
-  const[dil,setDil]=useState(localStorage.getItem("challange11Dil") );
+  const[dil,setDil]=useState(localStorage.getItem("challange11Dil")=="Türkçe" || localStorage.getItem("challange11Dil")=="İnglizce"  ? localStorage.getItem("challange11Dil"):"Türkçe"   );
   const [posts, setPosts] = useState(dil=="Türkçe"? arrEn:arrTr)
   
   /*

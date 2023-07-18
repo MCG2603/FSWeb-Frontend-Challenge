@@ -10,7 +10,7 @@ return(
         <div id={check ? "dark" :""} ref={c}> 
             
 <div  class='container'>
-<h1>Skills</h1>
+<h1>{posts[2]}</h1>
 <div class='g'>
 <div class='container1a'>
     <h2 class="l">Java Script</h2>

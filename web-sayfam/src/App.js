@@ -10,7 +10,7 @@ import axios from "axios"
 
 function App() {
   let arrTr=["Karanlık Mod","Aydınlık mod","Yetenekler","Projeler","Beni işe al","Yaratıcı düşünür Minimalizm Aşığı",
-"Merhaba, ben Almila. Ben bir full-stack geliştiricisiyim. Mükemmel kullanıcı deneyimleriyle sağlam ve ölçeklenebilir ön uç ürünleri oluşturacak bir Geliştirici arıyorsanız. Benimle el sıkışalım.",
+"Merhaba, ben MCG. Ben bir full-stack geliştiricisiyim. Mükemmel kullanıcı deneyimleriyle sağlam ve ölçeklenebilir ön uç ürünleri oluşturacak bir Geliştirici arıyorsanız. Benimle el sıkışalım.",
 "Şehvetle kör olmadıkça ortaya çıkmazlar; vazifelerini bırakıp gönüllerini yani emeklerini yumuşatanlar kusurludur.",
 "Şehvetle kör olmadıkça dışarı çıkmazlar; görevlerini bırakanlar kusurludur.",
 "Şehvetle kör olmadıkça dışarı çıkmazlar; görevlerini bırakanlar kusurludur.",

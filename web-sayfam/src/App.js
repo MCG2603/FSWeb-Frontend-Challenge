@@ -11,9 +11,9 @@ import axios from "axios"
 function App() {
   let arrTr=["Karanlık Mod","Aydınlık mod","Yetenekler","Projeler","Beni işe al","Yaratıcı düşünür Minimalizm Aşığı",
 "Merhaba, ben MCG. Ben bir full-stack geliştiricisiyim. Mükemmel kullanıcı deneyimleriyle sağlam ve ölçeklenebilir ön uç ürünleri oluşturacak bir Geliştirici arıyorsanız. Benimle el sıkışalım.",
-"Şehvetle kör olmadıkça ortaya çıkmazlar; vazifelerini bırakıp gönüllerini yani emeklerini yumuşatanlar kusurludur.",
-"Şehvetle kör olmadıkça dışarı çıkmazlar; görevlerini bırakanlar kusurludur.",
-"Şehvetle kör olmadıkça dışarı çıkmazlar; görevlerini bırakanlar kusurludur.",
+"Büyük bir hevesle ; vazifelerini bırakıp gönüllerini yani emeklerini yumuşatanlar kusurludur.",
+"Büyük bir hevesle; görevlerini bırakanlar kusurludur.",
+"Büyük bir hevesle; görevlerini bırakanlar kusurludur.",
 "Profil","Doğum Tarihi","İkemetgah Şehri","Eğitim Durumu","Tercih Ettiği Rol","Yüksek Lisans","Hakkımda",
 "Müşterinin kendisi, müşterinin şirketin adipleşmesini takip edebilecektir. Gelsin ya da gelmesin, yumuşaklık dışında her türlü emek zevkinden nefret eder.",
 "En az şarjı zevkle açalım mı? Arkalarında bıraktıkları sözler pek çok kez harika!",

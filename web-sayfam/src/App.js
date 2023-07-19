@@ -36,10 +36,10 @@ function App() {
 "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
 "Journey","Let's work together on your next product","Personal Blog","View Site"
 ]
-console.log(localStorage.getItem("Challenge11Mode"))
-  const[check,setCheck]=useState( localStorage.getItem("Challenge11Mode")==="true" );
+let y=(localStorage.getItem("challange11Dil")=="Türkçe" || localStorage.getItem("challange11Dil")=="İngilizce")? localStorage.getItem("challange11Dil"):"Türkçe"
+const[check,setCheck]=useState( localStorage.getItem("Challenge11Mode")==="true" );
   console.log(localStorage.getItem("challange11Dil"))
-  const[dil,setDil]=useState( localStorage.getItem("challange11Dil"));
+  const[dil,setDil]=useState(y);
   const [posts, setPosts] = useState(dil=="Türkçe"? arrEn:arrTr)
   
   /*

@@ -345,6 +345,8 @@
         flex-direction: column;
         margin-left: 2%;
         padding-left: 0;
+        width: 90%;
+
     }
 
     .container1 {
@@ -358,6 +360,8 @@
 
     .container1a {
         display: flex;
+        width: 90%;
+
         flex-direction: column;
         justify-content: flex-start;
         margin-top: 0;
@@ -368,6 +372,8 @@
     .container2 {
 
         display: flex;
+        width: 90%;
+
         flex-direction: column;
         justify-content: flex-start;
         margin-left: 2%;
@@ -381,6 +387,8 @@
         padding-top: 10%;
         margin-left: 2%;
         padding-left: 0;
+        width: 90%;
+
     }
 
     .d {
